@@ -1,0 +1,9 @@
+<!-- Visualizza dettagli dell'articolo passato attraverso l'input -->
+<h3>{{contatto.nome}}</h3>
+<i>{{contatto.cognome}}</i><br/>
+<p>{{contatto.numero}}</p>
+<p>{{contatto.email}}</p>
+<p>
+  Like: {{contatto.mipiace}}
+  <button (click)="aumentaLike()" >Mi piace</button>
+</p>
